@@ -12,6 +12,8 @@ body {
   font-size: lighter;
   line-height: 2;
   text-align: center;
+  background-image: url("images/coder1.jpg");
+  background-size: cover;
 }
 h1, h2, h3 {
   font-family: 'Ubuntu', sans-serif;
@@ -27,33 +29,36 @@ a {
 
 .btn-blue {
   background-color: #6A72E1;
-  padding: 10px;
+  width: 100%;
   display: inline-block;
-  margin: 10px;
+  margin: 0px;
   border-radius: 5px;
   font-weight: bold;
   color: white;
+  line-height: 3;
 }
 .btn-blue:hover {
   background-color: black;
 }
 
 .container {
-  width:600px;
-  margin: 0px auto;
+  width:700px;
   margin-bottom: 20px;
 
 }
 div {
-  margin: 10px auto;
+  margin: 20px 50px 10px 30px;
 }
 
 .card {
-  padding: 30px;
+  padding: 10px;
   box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
   background: white;
 
+}
+.card2 {
+  padding: 0px;
 }
 ul > li {
   display: inline;
@@ -82,4 +87,8 @@ i:hover {
   .container {
     width: 300px;
   }
+}
+
+h1{
+  float:left;
 }
