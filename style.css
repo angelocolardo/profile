@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Montaga|Ubuntu&display=swap');
+img {
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+  border: 3px dotted #01293F;
+}
+body {
+  font-family: 'Montaga', serif;
+  background-color: #F7F9FC;
+  color: #575F7D;
+  font-size: lighter;
+  line-height: 2;
+  text-align: center;
+}
+h1, h2, h3 {
+  font-family: 'Ubuntu', sans-serif;
+  color: #246EB9;
+  font-size: bold;
+  font-height: 2;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+ }
+
+.btn-blue {
+  background-color: #6A72E1;
+  padding: 10px;
+  display: inline-block;
+  margin: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  color: white;
+}
+.btn-blue:hover {
+  background-color: black;
+}
+
+.container {
+  width:600px;
+  margin: 0px auto;
+  margin-bottom: 20px;
+
+}
+div {
+  margin: 10px auto;
+}
+
+.card {
+  padding: 30px;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  background: white;
+
+}
+ul > li {
+  display: inline;
+  letter-spacing: 20px;
+  font-size: 50px;
+  text-align: center;
+  color: #F7F9FC;
+}
+i:hover {
+  color:black;
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
